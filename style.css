@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Medium Italic', sans-serif;
+}
+
+.first-screen {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.white-container {
+    height: 50vh;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 200px;
+    position: relative;
+}
+
+.logo-block {
+    padding: 25px 0 0 0;
+}
+
+.logo-link {
+    padding: 30px 20px; 
+}
+
+.logo-hover:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 95px;
+    line-height: 110px;
+    text-align: left;
+    color: #4A4A4A;
+    margin-top: 100px;
+    position: absolute;
+    bottom: 10px;
+    max-width: 1100px;
+}
+
+.blue-container {
+    height: 50vh;
+    width: 100%;
+    border: 1px;
+    background: linear-gradient(270deg, #0081FF 6.4%, #004AFF 98.23%);
+}
+
+.white-title {
+    position: absolute;
+    left: 200px;
+    bottom: 370px;
+    font-weight: 700;
+    font-size: 99px;
+    line-height: 110px;
+    text-align: left;
+    color: white;
+}
+
+.btn-block {
+    position: relative;
+    max-width: 400px;
+    top: 200px;
+    left: 200px;
+}
+
+.btn {
+    width: 300px;
+    height: 50px;
+    color: #fff;
+    border-radius: 0;
+    background-color: transparent;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 16px 60px;
+}
+
+.btn-hover:hover {
+    background-color: white;
+    color: #4A4A4A;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
